@@ -91,6 +91,64 @@ li{
     list-style: none;
 }
 
+.hero-sec{
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.leaves{
+    height: 700px;
+    position: absolute;
+    z-index: 0;
+    top: 120px;
+    right: 0;
+}
+
+.orange-bg{
+    background-color: #EE8146;
+    z-index: 1;
+    width: 400px;
+    position: absolute;
+    top: 14rem; 
+    height: 420px;
+    right: 7rem;
+    border-radius: 0px 80px;
+}
+
+.girl{
+    position: absolute; 
+    z-index: 2; 
+    top: 9rem; 
+    height: 500px;
+    right: 7rem;
+}
+
+/* now comes the hero-section */
+
+.left-side{
+    margin-top: 7rem;
+    width: 500px;
+}
+
+.left-side p{
+    font-size: 1rem;
+    color: #636363;
+}
+
+h1{
+    font-size: 4.6rem;
+    font-weight: 1000;
+    line-height: 4.01rem;
+    margin-bottom: 1.5rem;
+    width: 600px;
+}
+
+
+
+
+
+
 
 
 

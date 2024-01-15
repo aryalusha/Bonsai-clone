@@ -59,7 +59,7 @@
 }
 
 .nav-start{
-    padding: 9px 15px;
+    padding: 11px 18px;
     font-size: 0.89rem;
     font-weight: 600;
     background-color: #22AD01;
@@ -95,58 +95,164 @@ li{
     margin-left: 120px;
     display: flex;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .leaves{
-    height: 700px;
+    height: 750px;
     position: absolute;
     z-index: 0;
-    top: 120px;
-    right: 0;
+    top: 135px;
+    right: 2.09rem;
 }
 
 .orange-bg{
     background-color: #EE8146;
     z-index: 1;
-    width: 400px;
+    width: 350px;
     position: absolute;
-    top: 14rem; 
+    top: 14.8rem; 
     height: 420px;
-    right: 7rem;
-    border-radius: 0px 80px;
+    right: 14rem;
+    border-radius: 0px 70px;
 }
 
 .girl{
     position: absolute; 
     z-index: 2; 
-    top: 9rem; 
-    height: 500px;
-    right: 7rem;
+    top: 11.1rem; 
+    height: 480px;
+    right: 14rem;
+    border-radius: 0px 67px;
 }
 
 /* now comes the hero-section */
 
 .left-side{
     margin-top: 7rem;
-    width: 500px;
+    width: 900px;
+    margin-left: 110px;
 }
 
 .left-side p{
     font-size: 1rem;
-    color: #636363;
+    color: #1d1d1d;
+    font-size: 1.12rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+    width: 400px;
 }
 
 h1{
-    font-size: 4.6rem;
-    font-weight: 1000;
-    line-height: 4.01rem;
-    margin-bottom: 1.5rem;
-    width: 600px;
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 2.2rem;
+    width: 500px;
+    font-family: Poppins;
+    color: #003C2F;
+}
+
+.ban-submit{
+    width: 420px;
+    background-color: #ffffff;
+    height: 48px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 8px rgba(93, 93, 93, 0.1);
+    display: flex;
 }
 
 
+#submit{
+    height: 48px;
+    padding: 0px 33px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #22AD01;
+    border: none;
+    border-radius: 50px;
+    justify-content: flex-end;
+}
 
+.textfield-email{
+    height: 48px;
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 50px 0px 0px 50px ;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 30px;
+}
 
+.textfield-email:focus{
+    outline: none;
+    background-color: rgb(235, 235, 235)
+}
+
+.left-side:focus{
+    background-color: rgb(227, 237, 255);
+}
+
+.nav-left-up{
+    margin-bottom: 50px;
+}
+
+.nav-left-down{
+    display: flex;
+    align-items: center;
+}
+
+.img-left-banner{
+    height: 50px;
+    width: 200px;
+    background-image: url(first.svg);
+    background-size: contain;
+}
+
+.first-img{
+    padding-right: 70px;
+    border-right: 2px solid rgb(222, 222, 222);
+}
+
+.second-img{
+    height: 50px;
+    width: 260px;
+    background-image: url(second.svg);
+    background-size: contain;
+    margin-left: 70px;
+}
+
+.abstract2{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.dashboard-phone{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -25rem;
+}
+
+.dashboard{
+    position: absolute;
+    width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgb(228, 228, 228);
+}
+
+.phone{
+    position: absolute;
+    height: 580px;
+    right: 4rem;
+    top: 11rem;
+}
 
 
 
